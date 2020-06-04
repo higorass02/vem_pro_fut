@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDA94EFB-5E9E-D43A-4F92-B773859A7F52" name="TB_Feedback">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:13:33 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_feedback" id="B2797239-2E19-4D09-58E5-C59E0E5763ED">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:14:01 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="006512E7-F0D6-BC2A-F2F7-EB10F5CAD17B">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:46:21 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FD2522E-D720-85C0-4DA8-A449C188D91C" referredColumn="0695ECE1-D0F5-899A-5FAB-DCADD244D154"/>
+</associations>
+</Column>
+<Column name="id_jogadores" id="BA87EB4A-E4B7-4CF2-E082-01A316568F6C">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:32:02 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7449B585-B34D-B9E7-9648-060687C28AAC" referredColumn="B1EB06E9-1A9D-1A27-A540-EFBA8B5CBAB5"/>
+</associations>
+</Column>
+<Column name="dt_cadastro" id="6ED0618B-0BC7-9394-71C0-7FB17604585F">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:15:35 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_obs" id="31D9D3E8-F2A7-A89C-CB6B-8C389C4E690B">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:15:53 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E0DA4B11-80BA-EDD0-4E1F-28316F7C7B21">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:16:23 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDDDCC2D-4DE2-C753-1FDB-4039902F9F16" name="TB_Feedback_PK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:17:16 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2797239-2E19-4D09-58E5-C59E0E5763ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F87B5F2-2204-5255-59CB-090AEFEDBA06" name="TB_Feedback_TB_Jogadores_FK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:32:02 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA87EB4A-E4B7-4CF2-E082-01A316568F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B2DEC9E-4F47-352D-B833-71BD0CDC4158" name="TB_Feedback_TB_usuarios_FK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:46:21 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="006512E7-F0D6-BC2A-F2F7-EB10F5CAD17B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

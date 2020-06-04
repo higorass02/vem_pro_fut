@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8899AB6-20A3-4F4D-854B-2504B305E8E8" name="TB_Esquema_Tatico">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:09:04 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_esquema" id="D345E65D-0CD3-3581-98F6-2C8616335D56">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:10:09 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_jogadores" id="2C1C91D5-EB24-657F-4E20-3A7DC9A20064">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:11:05 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_zag" id="E72B8C15-524A-767B-D478-7381E4C1DCDE">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:11:05 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_mei" id="56F6A3D5-E6A6-288F-A8BC-D3DA15C0F3E1">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:11:23 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ata" id="1383EF4B-35F6-4E4B-3A81-E9477D2101C2">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:11:35 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ld" id="A1460640-4396-F0D8-65B6-25A0899BC8CB">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:11:55 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_le" id="BF0D681A-0C41-1ED9-12A3-915546C3E25E">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:12:14 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="8C9B99EC-F52E-76B2-957D-707419BB867B">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:12:54 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="DF85557C-0A04-67AD-7D14-187138237BC4">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:13:02 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_usuarios_id_usuario" id="33F21082-0783-9585-AD35-1A611F994AC1">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:48:49 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C93A853B-4E1B-FBBE-9FAC-45406E5265B9" referredColumn="0695ECE1-D0F5-899A-5FAB-DCADD244D154"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C00FB52C-A876-F1CE-1A13-51990237047E" name="TB_Esquema_Tatico_PK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:10:09 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D345E65D-0CD3-3581-98F6-2C8616335D56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59333B2C-7C55-7D6F-5A83-18784A90A955" name="TB_Esquema_Tatico_TB_usuarios_FK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:48:49 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33F21082-0783-9585-AD35-1A611F994AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

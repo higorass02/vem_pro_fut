@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C93A853B-4E1B-FBBE-9FAC-45406E5265B9" containerWithKeyObject="A8899AB6-20A3-4F4D-854B-2504B305E8E8" localFKIndex="59333B2C-7C55-7D6F-5A83-18784A90A955" name="TB_Esquema_Tatico_TB_usuarios_FK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:48:49 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<referredTableLongName>TB_usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5059D23A-41A3-96DF-4C2D-BC0037820063</referredTableID>
+<keyObject>ABD161EF-0B5F-18E0-3DC9-67F79B0A3E9D</keyObject>
+<referredKeyID>ABD161EF-0B5F-18E0-3DC9-67F79B0A3E9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

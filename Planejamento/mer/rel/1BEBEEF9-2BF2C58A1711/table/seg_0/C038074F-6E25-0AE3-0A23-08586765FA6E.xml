@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C038074F-6E25-0AE3-0A23-08586765FA6E" name="TB_Partidas">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:23:04 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partida" id="194B86B0-E886-C31B-5122-959F8E129BB8">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:23:42 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_local" id="E785EC95-E821-8EFB-F755-D2E984D88C44">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:24:05 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="2CFCC08A-870B-4BB5-F21C-F529590ED134">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:24:42 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_atualizacao" id="87A4D62A-7CDB-DF6C-0584-132587778844">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:26:01 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_usuario" id="CC277E13-2B36-B169-376A-0093BE1C0207">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:27:51 UTC</createdTime>
+<commentInRDBMS>Id do usuario que vai cadastrar a partida.</commentInRDBMS>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="7AF9B3AA-9D95-2937-59D9-EE714561B704">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:28:35 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44C03277-575A-67A6-F075-1193203DF966" name="TB_Partidas_PK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:23:42 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="194B86B0-E886-C31B-5122-959F8E129BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="842DF4B5-4230-AD12-793B-6ACCAE67688B" name="TB_Cartola">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:37:35 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jogador" id="13A2EBBE-8C99-D47E-FFB2-53C2AA83FF4E">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:26:19 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D15AB45-C5E3-0E14-29EF-1D1B3D925297" referredColumn="B1EB06E9-1A9D-1A27-A540-EFBA8B5CBAB5"/>
+</associations>
+</Column>
+<Column name="ds_pontos" id="DCBC0CD9-86A1-911E-B093-6316D9A9EE3F">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:38:15 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao" id="D6DF4987-9D56-8A45-AAE1-328CA625F7E0">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:39:09 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_atualizacao" id="6FF52D71-6F0E-15C7-982B-B64FFC1B40B0">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:39:20 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jogador_pos" id="54A0DE1B-5D73-F19A-E234-08DB87C2306A">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:38:46 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="B27B0670-74DB-D0E6-C488-1F924C68701C">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 14:39:41 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812BD7CB-DA2F-63B6-4F3A-08310582768F" name="TB_Cartola_TB_Jogadores_FK">
+<createdBy>higor.santos</createdBy>
+<createdTime>2018-11-16 16:26:19 UTC</createdTime>
+<ownerDesignName>mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A2EBBE-8C99-D47E-FFB2-53C2AA83FF4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
